@@ -53,16 +53,9 @@ function game() {
   }
 }
 
-// function showScores() {
-//   console.log("YAY! You SCORED: ", score);
 
-//   console.log("Check out the high scores, if you should be there ping me and I'll update it");
-
-//   highScores.map(score => console.log(score.name, " : ", score.score))
-// }
 
 
 welcome();
 game();
 console.log("The Quiz Has Ended!! ");
-// showScores();
