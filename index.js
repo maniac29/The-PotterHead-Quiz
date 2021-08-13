@@ -18,8 +18,26 @@ var questions = [{
   answer: "Acromantula"
 },
 {
-   question: "Name the centaur who taught at Hogwarts? ",
+   question: "Name the centaur who taught at Hogwarts. ",
   answer: "Professor Firenze"
+},{
+  question: "Who killed Dobby by throwing a knife at him? ",
+  answer: "Bellatrix Lestrange"
+},{
+  question: "Name the killing curse. ",
+  answer: "Avada Kedavra"
+},{
+  question: "What was Harry’s Patronus? ",
+  answer: "stag"
+},{
+  question: "What spell would you use to get rid of a nasty boggart? ",
+  answer: "Riddikulus"
+},{
+  question: "Dumbledore is an old fashioned word for bumblebee - true or false? ",
+  answer: "true"
+},{
+  question: "Who does Hermione Granger become when she takes a Polyjuice Potion to break into Gringotts Bank? ",
+  answer: "Bellatrix Lestrange"
 }];
 
 function welcome() {
@@ -59,3 +77,4 @@ function game() {
 welcome();
 game();
 console.log("The Quiz Has Ended!! ");
+console.log("Your total score is :" , score);
